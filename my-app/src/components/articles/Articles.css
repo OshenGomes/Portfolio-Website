@@ -1,0 +1,75 @@
+.p2 {
+    width: 32%;
+    height: 75vh;
+    margin: 20px 6px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    background-color:rgb(243, 242, 242);
+}
+
+.p-browser {
+    height: 10px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+
+.p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+
+.p-img {
+    width: 80%;
+    height: 40%;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*.p:hover .p-img {*/
+/*    transform: translateY(-100%);*/
+/*}*/
+
+.p-button2{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.p-button-shadow:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.p-para{
+    text-align: justify;
+    padding: 10px;
+}
+
+.p-img-b{
+
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .p {
+        width: 40%;
+        height: 20vh;
+    }
+}
