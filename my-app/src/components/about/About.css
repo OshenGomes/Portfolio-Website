@@ -2,8 +2,12 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background-color: aliceblue;
-    margin-top: 10px;
+    background-image: url("https://cdn.wallpapersafari.com/86/59/y0673h.jpg");
+    /*background-color: #A0CFEC;*/
+    background-repeat:no-repeat;
+    /*clip-path: polygon(45% 0, 29% 54%, 16% 100%, 0% 100%, 0 51%, 0% 0%);*/
+    background-size: cover;
+    /*margin-top: 10px;*/
 }
 
 .a-left {
@@ -17,6 +21,8 @@
 
 .a-right {
     flex: 1;
+    justify-content: center;
+    margin-right: 80px;
 }
 
 .a-card.bg {
@@ -40,44 +46,46 @@
     object-fit: cover;
 }
 
-.a-award-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
-}
 
 .a-title {
-    font-weight: 400;
+    font-family: "Times New Roman";
+    font-size: 50px;
+    font-weight: 300;
 }
 
 .a-sub {
     margin: 20px 0px;
 }
 
-.a-desc{
+.a-desc {
     font-weight: 300;
     font-size: 20px;
+    justify-content: center;
 }
 
-.a-award{
+.a-award {
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.a-award-texts{
+.a-award-texts {
     width: 70%;
 }
 
-.a-award-title{
+.a-award-title {
     font-weight: bold;
     color: #555;
     margin-bottom: 10px;
 }
 
-@media screen and (max-width:480px) {
-    .a{
+.RButton {
+
+}
+
+@media screen and (max-width: 480px) {
+    .a {
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
@@ -89,13 +97,32 @@
 
     .a-card {
         height: 30vh;
+        margin-top: 10px;
+    }
+
+    .a-title {
+        justify-content: center;
+        margin-left: 80px;
+    }
+
+    .a-desc {
+        font-weight: 300;
+        font-size: 15px;
+        justify-content: center;
+        margin-left: 80px;
+    }
+
+    .RButton {
+        justify-content: center;
+        margin-left: 80px;
     }
 
     .a-card.bg, .a-award {
         display: none;
     }
 
-    .a-right{
+    .a-right {
         padding: 20px;
     }
 }
+

@@ -5,6 +5,7 @@ import ArticlesList from "./components/articlesList/ArticlesList";
 import Contact from "./components/contact/Contact";
 import './App.css';
 import React from "react";
+import SkillList from "./components/skillList/SkillList";
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <div>
         <Intro />
         <About />
+        <SkillList />
         <ProjectsList/>
         <ArticlesList/>
         <Contact />

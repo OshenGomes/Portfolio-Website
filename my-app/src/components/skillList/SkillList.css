@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /*background-color:aliceblue;*/
 
 }
 
@@ -15,8 +14,6 @@
 .pl-title {
     font-size: 50px;
     font-weight: 600;
-    font-family: SansSerif;
-
 }
 
 .pl-desc {
@@ -29,8 +26,6 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 
 @media screen and (max-width: 480px) {
     .pl {
@@ -46,19 +41,17 @@
     }
 }
 
-.pl2-button {
-    background-color: rgb(101, 205, 247);
+.pl-button {
+    background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 300px;
-    width: 100%;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px 10px 10px 10px;
 
 }
 

@@ -6,18 +6,15 @@ const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title">Projects What i have done</h1>
-                <p className="pl-desc">
-                    Lama is a creative portfolio that your work has been waiting for.
-                    Beautiful homes, stunning portfolio styles & a whole lot more awaits
-                    inside.
-                </p>
+                <p>_________________________________________________________________________________________________________________________</p>
+                <h1 className="pl-title">PROJECTS</h1>
             </div>
             <div className="pl-list">
                 {projectsData.map((item) => (
                     <Project key={item.id} title={item.title} img={item.img} link={item.link} desc={item.desc} tec={item.tec}  />
                 ))}
             </div>
+            <a href="https://github.com/OshenGomes"> <button className="pl2-button">See more</button></a>
         </div>
     );
 };

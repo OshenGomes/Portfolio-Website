@@ -4,22 +4,24 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /*background-color: #BBD1D5;*/
 }
 
-.pl-texts {
+.pl2-texts {
     width: 65%;
 }
 
-.pl-title2 {
+.pl2-title2 {
     font-size: 50px;
     font-weight: 600;
+    font-family: SansSerif;
 }
 
-.pl-desc {
+.pl2-desc {
     margin: 20px 0px;
 }
 
-.pl-list {
+.pl2-list {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -27,15 +29,15 @@
 }
 
 @media screen and (max-width: 480px) {
-    .pl {
+    .pl2 {
         padding: 10px;
     }
 
-    .pl-texts {
+    .pl2-texts {
         width: 100%;
     }
 
-    .pl-desc {
+    .pl2-desc {
         display: none;
     }
 }

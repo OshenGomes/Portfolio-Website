@@ -22,6 +22,7 @@ const About = () => {
                     gain more experience while growing along with the organizational
                     objectives and taking the organization to excellence
                 </p>
+                <a href="https://drive.google.com/drive/folders/1IhM-A3oCfv82xpQXiCMSEGn24HVHbQdl?usp=sharing"> <button className="RButton">Resume</button> </a>
             </div>
         </div>
     );
