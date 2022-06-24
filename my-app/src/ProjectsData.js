@@ -24,7 +24,7 @@ export const projectsData = [
         id: 3,
         title:"Travel Agency and Tour Planning System.",
         img: "https://www.nadovatours.com/uploads/Vietnam/Blog/travel-service.jpg",
-        link: "http://lama.dev",
+        link: "https://github.com/OshenGomes/ITP_PROJECT_2021.git",
         tec:"ReactJs, NodeJs, ExpressJs, MongoDB (MERN STACK)",
         desc:"Travel Agency and Tour Planning is a multilingual travel and tour management software that helps organizations to manage operations related to reservations, ticketing, customer check-ins, payment processing, and more on a centralized platform. " +
             "It enables staff members to create and organize excursions with details, such as location, category, texts, images, standard expenses, and pickups.",
@@ -33,7 +33,7 @@ export const projectsData = [
         id: 4,
         title:"Fitness Management Application",
         img: "https://images-na.ssl-images-amazon.com/images/I/41QM59cwayL.jpg",
-        link: "http://lama.dev",
+        link: "https://github.com/OshenGomes/MAD_Project_CrossFit.git",
         tec:"Android Studio (Java,Firebase)",
         desc:"A fitness management system developed using Android studio for the software engineering  2nd-year Mobile application development module in SLIIT." +
             " In this system, users can manage their daily nutrition and exercise routine, get a membership/monthly package in the gym, and purchase gym equipment and supplements from the gym store."+
